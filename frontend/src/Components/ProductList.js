@@ -8,7 +8,7 @@ export default function(props) {
         <AddProduct />
         <div>
             <Product/>
-            <Product/>
+           
             <Product/>
             <Product/>
         </div>
