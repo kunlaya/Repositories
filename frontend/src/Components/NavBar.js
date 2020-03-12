@@ -13,7 +13,7 @@ export default function NavBar(props) {
                     <Link to="/">Home</Link>                   
                 </li>
                 <li>
-                <Link to="ProductList">Our Products</Link>
+                <Link to="/products">Our Products</Link>
                 </li>
             </ul>
         </div>
