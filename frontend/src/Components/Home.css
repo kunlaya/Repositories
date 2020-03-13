@@ -1,25 +1,6 @@
-
-/*.home-bg {
-    background-color: #cccccc;
-   }
-   */
-
-
-   .home-logo {
-    height: 200px;
-    pointer-events: none;
-    position: sticky;
-
-  }
-body{
-    background-color: rgb(255, 255, 255);
-    left: 50%;
-}
-
-.home-bg
 .menu-item {
-    color: wheat;
-    font-weight: 400;
-    font: Arial;
-
-  }
+    background-color: red;
+}
+.menu-item-home {
+    font-weight: 700;
+}
