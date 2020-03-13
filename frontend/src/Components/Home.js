@@ -1,21 +1,29 @@
 import React from 'react';
-import ProductList from './ProductList';
+import logo from './LogoPariya.svg';
+import bg from './background.png';
+
+
 
 import './Home.css';
 
 export default function(props) {
     return (
         <React.Fragment>
-            <div>
-                    <ul>
+            
+            <div >
+            <img src={logo} className="home-logo" alt="logo" />,                                      
+            </div>
+
+            <div >
+            <ul>
                     <li className="menu-item menu-item-home">Home</li>
                     <li  className="menu-item menu-item-products">OUR PRODUCTS</li>
-                    </ul>                    
+                    </ul>  
             </div>
-            <div>
-
-            </div>
-        </React.Fragment>
-         
+        </React.Fragment>   
     );
 }
+/*
+import bg from './background.png';
+<img src={bg} className="home-bg" alt="backgound image" />
+*/
